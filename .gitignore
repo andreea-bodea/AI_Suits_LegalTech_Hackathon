@@ -1,0 +1,8 @@
+.env
+
+# Python cache files
+src/__pycache__/
+*.pyc
+
+# Chroma/DB/index files
+src/case_law_index/
