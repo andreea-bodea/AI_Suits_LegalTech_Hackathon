@@ -1,3 +1,5 @@
+# legal_chains.py
+
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
@@ -64,7 +66,8 @@ Clause Summary:
 Risk Assessment:
 {risk_assessment}
 
-Suggest an alternative clause wording to mitigate these risks.
+
+For each detected risk, suggest a mitigation strategy. Examples could be alternative clause wording, adding or removing clauses, replacing specific words etc.
 """,
     input_variables=["clause_summary", "risk_assessment"]
 )
