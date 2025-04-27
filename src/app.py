@@ -49,7 +49,7 @@ def _add_global_css() -> None:
 st.set_page_config(page_title="Clause Analyzer", layout="wide")
 _add_global_css()
 
-st.title("📝 Rental Agreement Clause Review")
+st.title("📝 ClauseGuard: Advanced Rental Contract Reviewer")
 
 # ────────────────────────────────────────────────────────────────────────────
 # 1 ░ Upload – allow PDF or DOCX
